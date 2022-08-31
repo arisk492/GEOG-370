@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "ImportantPlacesPoints",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Name": "Cherry Hill East High School" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -74.963992999460572, 39.876394681297008 ] ] } },
+{ "type": "Feature", "properties": { "id": 2, "Name": "Temple Emanuel" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -74.969548485134908, 39.880962503601673 ] ] } }
+]
+}
