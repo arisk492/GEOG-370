@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projections</title>
+    <title>Homework 3: World Projections</title>
 </head>
 <body>
-    <h1>In this project I learned how to display images in different projections</h1>
+    <h5>Ari Kauftheil</h5>
+    <h1>Homeowork 3: World Projection Maps</h1>
     
-    <h2 style="color:red">Describe in your own words how you displayed the map in different projections using QGIS</h2>
-    <!--<p>You can write a paragraph here</p>-->
+    <h2 style="color:red">How I displayed the map in different projections using QGIS</h2>
+    <p>Starting off in QGIS, I uploaded the shapefile for the Natural Earth countries data to a blank project. 
+        I then added a layer of Tissot's indicatrices using the Indicatrix mapper plugin. 
+        Next, I searched for the different projections by their EPSG number under Project Properties->Project Coordinate Reference System. 
+    With the new project-wide CRS for each projection, I re-edited a single QGIS print layout and exported the finished maps as PNGs.</p>
     
+    <h2 style="color:red">Example Maps</h2>
     <h2>WGS84 Projection</h2>
     <h3>Some observations</h3>
+    <p>Neither shape, nor area is conserved, but the map is pretty accurate around the equator. The poles are most distorted with extra large areas and vertically squished shapes.</p>
     <a href="./ExampleMaps/4326.png">
     <img src="./ExampleMaps/4326.png" alt="WGS84" width='500px'>
     </a>
     <h2>Aitoff Projection</h2>
     <h3>Some observations</h3>
+    <p>Neither shape, nor area is conserved, with distortion increasing out from the equator and prime meridian. The map emulates the curvature of the earth pretty well and it doesn't look too distorted visually.</p>
     <a href="./ExampleMaps/54043.png">
     <img src="./ExampleMaps/54043.png" alt="Aitoff" width='500px'>
     </a>
 
-    <h2 style="color:red">Now, you should <u>add the following projections on your own:</u></h2>
-    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, and two additional projections that you choose.</h3>
-    
+    <h2 style="color:red">My Maps</h2>
+    <h3>EPSG: 3857, 53018, 54034, 54027, 102016, 102019, and 54052.</h3>
     <h2>Pseudo-Mercator Projection</h2>
     <h3>Some observations</h3>
+    <p>Shape is conserved, while area is not. The equator and is most accurate and continents are represented larger toward the poles.</p>
     <a href="./MyMaps/3857.png">
     <img src="./MyMaps/3857.png" alt="Pseudo-Mercator" width='600px'>
     </a>
