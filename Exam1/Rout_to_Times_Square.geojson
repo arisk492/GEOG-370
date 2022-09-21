@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Rout_to_Times_Square",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 0 }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -73.98191251892203, 40.768045508239496 ], [ -73.986538853332519, 40.761620968982186 ], [ -73.983677194803491, 40.760429298601231 ], [ -73.984166668156732, 40.759802756294015 ], [ -73.981282520471396, 40.758601433258001 ], [ -73.98177200233971, 40.757974901020859 ] ] ] } }
+]
+}
