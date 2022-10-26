@@ -12,19 +12,19 @@
 
 <p>For this assignment, I looked into the habitat areas for the endangered North Atlantic Right Whale. 
     My real-world question is: what fraction of the North Atlantic Right Whale northeastern U.S. foraging area (where they find food) remians unobstructed by high-traffic shipping routes?</p>
-</br></br>
+</br>
 
 <p>To start off, 
     I downloaded vector data with the <a href="https://www.fisheries.noaa.gov/resource/map/north-atlantic-right-whale-critical-habitat-map-and-gis-data">locations of critical habitats for the North Atlantic Right Whale</a>,
      as well as a dataset on <a href="https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::shipping-fairways/explore?location=41.035212%2C-71.470409%2C5.89">shipping fairways for U.S. coasts</a>.</p>
-</br></br>
+</br>
 
 <p>Next, I cleaned the shipping fairways dataset to remove features marking non-shipping areas, and used the dissolve tool to combine the remaining features into one. 
     This is the link to my <a href="./Shipping_Fairways_Dissolved.geojson">dissolved shipping fairways layer</a>.
 Then, I used the difference tool to subtract the combined area of the shipping fairways from the critical whale habitat areas. 
 This resulted in the <a href="./Unobstructed Foraging Area.geojson">unobstructed northeastern foraging area layer</a>, which also still includes the data from the southeastern calving area. 
 The datasets I created are both in EPSG 102008, which what I used for the map</p>
-<br><br>
+<br>
 
 <h3>Fraction of North Atlantic Right Whale Foraging Area Unobstructed by Shipping Fairways</h3>
 <a href="./Unobstructed_Foraging_Area.png">
