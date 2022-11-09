@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Bear_Southeast_10mi_Buffer",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:ESRI::102039" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 2260 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 454996.963579661212862, 1210425.400849946774542 ] ] } },
+{ "type": "Feature", "properties": { "id": 1691 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1189085.421184331411496, 1583553.688160690478981 ] ] } },
+{ "type": "Feature", "properties": { "id": 264 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1183411.918250578688458, 1570981.255081907846034 ] ] } },
+{ "type": "Feature", "properties": { "id": 560 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1103953.100853681797162, 1373908.343470941996202 ] ] } },
+{ "type": "Feature", "properties": { "id": 681 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1091406.858987843850628, 1342885.211080852430314 ] ] } },
+{ "type": "Feature", "properties": { "id": 1201 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1057098.212873563636094, 1320195.998824338428676 ] ] } },
+{ "type": "Feature", "properties": { "id": 1494 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1050536.283199148718268, 1291700.045228782808408 ] ] } },
+{ "type": "Feature", "properties": { "id": 1504 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1057064.268591187428683, 1320142.941741317277774 ] ] } },
+{ "type": "Feature", "properties": { "id": 48 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1023685.336889074300416, 960241.664018318755552 ] ] } },
+{ "type": "Feature", "properties": { "id": 244 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1384378.913439507363364, 793694.3744015567936 ] ] } },
+{ "type": "Feature", "properties": { "id": 836 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1422403.667756038717926, 746977.177424755762331 ] ] } },
+{ "type": "Feature", "properties": { "id": 844 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1421405.962035722564906, 747243.931952444254421 ] ] } }
+]
+}

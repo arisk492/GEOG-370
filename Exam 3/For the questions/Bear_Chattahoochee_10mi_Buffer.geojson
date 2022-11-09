@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Bear_Chattahoochee_10mi_Buffer",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:ESRI::102039" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 560 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1103953.100853681797162, 1373908.343470941996202 ] ] } },
+{ "type": "Feature", "properties": { "id": 48 }, "geometry": { "type": "MultiPoint", "coordinates": [ [ 1023685.336889074300416, 960241.664018318755552 ] ] } }
+]
+}
